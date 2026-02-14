@@ -70,8 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para la personita mas lina del mundo:\n\nHace 3 años quien hubiera pensado que estuvieramos tan unidos como lo estamos ahora no se como terminaremos pero estoy muy feliz de conocerte de poder estar a tu lado de poder ayudarte a lorgrar tus metas y de poder ser tu apoyo.\n\nGracias por tanto cariño y tanta tranquilidad, espero que sea el inicio de algo muy bello de algo sano y de algo que dure.\n\nTe quiero mucho y espero que la ultima imagen se cumpla.`;  } else {
-    
+    text = text = `Para la personita más linda del mundo:\n\nHace 3 años quién hubiera pensado que estaríamos tan unidos como lo estamos ahora no sé cómo terminaremos pero estoy muy feliz de conocerte de poder estar a tu lado de poder ayudarte a lograr tus metas y de poder ser tu apoyo.\n\nGracias por tanto cariño y tanta tranquilidad, espero que sea el inicio de algo muy bello de algo sano y de algo que dure.\n\nTe quiero mucho y espero que la última imagen se cumpla.`; } else {
       text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
